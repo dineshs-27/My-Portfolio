@@ -14,8 +14,6 @@
     --bgColor: #f7f7f7;
 }
 
-/* Header Start */
-
 header{
     height: 100vh;
     width: 240px;
@@ -66,8 +64,6 @@ header .profile .Social-icons a{
 header .profile .Social-icons a:hover{
     background-color: var(--themeColor);
 }
-
-/* Nav Start*/
 
 header nav{
     margin-top: 30px;   
@@ -133,7 +129,7 @@ header .Footer p{
     display: none;
     z-index: 999;    
 }
-/* MObile view */
+
 @media only screen and (max-width: 1050px){
     header{
         left: -300px;
@@ -146,8 +142,6 @@ header .Footer p{
     }
 }
 
-/* header toggle*/
-
 .mobile-nav-active header{
     left: 0;
 }
@@ -155,10 +149,6 @@ header .Footer p{
 .mobile-nav-active Footer{
     left: 0;
 }
-
-/* Header End */
-
-/* Main Section */
 
 main{
     overflow-x: hidden;
@@ -173,8 +163,6 @@ main{
     }
 }
 
-/* Home Section */
-
 #Home-Page{
     height: 100vh;
     width: 100%;
@@ -187,8 +175,6 @@ main{
     padding: 70px;
     position: relative;
 }
-
-/* Overlay */
 
 #Home-Page::before{
     content: '';
@@ -226,7 +212,6 @@ main{
     border-bottom: 4px solid var(--themeColor);
 }
 
-/*Mobile view*/
 @media only screen and (max-width: 670px){
     #Home-Page{
         padding: 30px;

@@ -294,7 +294,7 @@ main{
 }
 
 /* Mobile View */
-@media only screen and (max-width: 670px){
+@media only screen and (max-width: 1000px){
     #about{
         padding: 30px;
         margin-left: 0;
@@ -368,7 +368,7 @@ main{
 }
 
 /* Mobile View */
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 1000px){
     #skills{
         padding: 30px;
         margin-left: 0;

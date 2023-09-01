@@ -102,9 +102,9 @@ header nav ul li a:hover{
     color: var(--themeColor);
 }
 
-header nav ul li .active i{
+/* header nav ul li a.active i{
     color: var(--themeColor);
-}
+} */
 
 header .Footer p{
     text-align: right;
@@ -290,7 +290,7 @@ main{
 #about .img-col img {
     width: 200px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-top: 15px;
 }
 
@@ -383,5 +383,4 @@ main{
         grid-gap: 10px;
     }
 }
-
 /* Skills section end */
